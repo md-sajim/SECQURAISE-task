@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+
+.nav_container {
+    padding: 5px 20px;
+    background-color: #001C7B;
+    color: #008784;
+    font-family: 'Playfair Display SC', serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_smtx {
+    font-size: 22px;
+}
+
+.logo_ai {
+    color: red;
+}
+
+.nav-infocontainer {
+    display: flex;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar button {
+    color: #eee;
+    background-color: #001C7B;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.search-bar input {
+    background-color: #001C7B;
+    padding: 5px 10px;
+    font-weight: 600;
+    margin: 0 10px;
+    border: none;
+    outline: 1px solid #eee;
+    color: #eee;
+}
+
+.nav-infocontainer p:nth-child(2) {
+    background-color: #92D050;
+    padding: 5px 20px;
+    margin: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.nav-infocontainer p:nth-child(3) {
+    background-color: red;
+    padding: 5px 20px;
+    margin: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #eee;
+    font-weight: 600;
+    font-size: 24px;
+}

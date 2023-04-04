@@ -1,0 +1,19 @@
+.home-container{
+    display: flex;
+}
+.laft-bar{
+    background-color: #00B8F1;
+    height: 95vh;
+    width: 70px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+.laft-bar button{
+    border: none;
+    background-color: #00B8F1;
+    margin-top: 10px;
+    font-size: 28px;
+    color: gainsboro;
+    
+}
